@@ -701,3 +701,35 @@
     flex-wrap: wrap;
 }
 }
+
+@media screen and (max-width: 1024px) {
+.banner {
+    background-color: #244ac2;
+    color: white;
+    font-size: large;
+    text-align: center;
+    height: 4rem;
+    width: 20rem;
+    position: absolute;
+    left: 1%;
+    top: 45%;
+    z-index: 2;
+}}
+
+@media screen and (max-width: 1024px) {
+.black-banner {
+    background-color: black;
+    display: inline-block;
+    height: 4rem;
+    width: 20rem;
+    position: absolute;
+    left: 1%;
+    top: 51%;
+    z-index: 3;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+}
